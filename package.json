@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/casperjs main.js"
+    "test": "./node_modules/.bin/casperjs test ./tests/test.js",
+    "start": "./node_modules/.bin/casperjs main.js || true"
   },
   "author": "",
   "license": "ISC",
